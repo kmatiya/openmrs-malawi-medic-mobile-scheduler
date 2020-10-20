@@ -1,0 +1,12 @@
+server:
+  port: 8887
+medic_mobile:
+  trace_url: "medic_mobile_test_url"
+  basic_authentication:
+    username : "test_medic_mobile_username"
+    password : "test_medic_mobile_password"
+emr:
+  trace_url : "test_url"
+  basic_authentication:
+    username: "test_emr_username"
+    password : "test_emr_password"

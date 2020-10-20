@@ -1,0 +1,13 @@
+server:
+  port: 8887
+medic_mobile:
+  trace_url: "https://pih-malawi.dev.medicmobile.org/medic/_bulk_docs"
+  basic_authentication:
+    username : "openmrs"
+    password : "openmrs"
+emr:
+  trace_url : "http://localhost:8080/openmrs/ws/rest/v1/pihmalawi/ic3trace"
+  basic_authentication:
+    username: "openmrs"
+    password : "openmrs"
+
